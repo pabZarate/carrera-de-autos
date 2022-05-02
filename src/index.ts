@@ -8,16 +8,16 @@ promedio de vuelta
 */
 
 let vuelta1: number | null = Number(
-  prompt("Tiempo de la primer vuelta (en minutos)", "Por ejemplo: 6.40")
+  prompt("Tiempo de la primer vuelta (en minutos)", "ejemplo")
 );
 let vuelta2: number | null = Number(
-  prompt("Tiempo de la segunda vuelta (en minutos)", "Por ejemplo: 6.40")
+  prompt("Tiempo de la segunda vuelta (en minutos)", "ejemplo")
 );
 let vuelta3: number | null = Number(
-  prompt("Tiempo de la tercer vuelta (en minutos)", "Por ejemplo: 6.40")
+  prompt("Tiempo de la tercer vuelta (en minutos)", "ejemplo")
 );
 let vuelta4: number | null = Number(
-  prompt("Tiempo de la cuarta vuelta (en minutos)", "Por ejemplo: 6.40")
+  prompt("Tiempo de la cuarta vuelta (en minutos)", "ejemplo")
 );
 
 let tiempoTotal: number = vuelta1 + vuelta2 + vuelta3 + vuelta4;
